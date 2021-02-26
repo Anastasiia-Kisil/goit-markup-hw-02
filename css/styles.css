@@ -16,7 +16,7 @@ body {
   font-style: normal;
 }
 .logo-link {
-  font-family: 'Raleway', sans-serif;
+  font-family: var(--secondary-font)
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -64,7 +64,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  background-color: #2f303a;
 }
 .modal-btn {
   font-weight: 700;
@@ -87,7 +86,6 @@ body {
   color: #212121;
 }
 .principle-description {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -111,7 +109,6 @@ body {
   color: #212121;
 }
 .team-prof {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -138,3 +135,31 @@ body {
 .contact-link-footer:hover,
 .contact-link-footer:focus {
   color: var(--accent-color);
+}
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  cursor: pointer;
+}
+.example-title {
+  font-weight: 700d;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.example-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
